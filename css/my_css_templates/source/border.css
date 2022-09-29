@@ -1,0 +1,15 @@
+.black-border{
+    border: 1px solid black;
+}
+.no-border-right{
+    border-right: none;
+}
+.no-border-left{
+    border-left: none;
+}
+.no-border-bottom{
+    border-bottom: none;
+}
+.no-border-top{
+    border-top: none;
+}

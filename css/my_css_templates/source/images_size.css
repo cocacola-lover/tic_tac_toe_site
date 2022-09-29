@@ -1,0 +1,23 @@
+@import "font_size.css";
+
+.small-icon {
+    width: auto;
+    height: var(--small-font-size);
+}
+
+.normal-icon {
+    width: auto;
+    height: var(--normal-font-size);
+}
+.bigger-icon {
+    width: auto;
+    height: var(--bigger-font-size);
+}
+.big-icon {
+    width: auto;
+    height: var(--big-font-size);
+}
+.giant-icon {
+    width: auto;
+    height: var(--giant-font-size);
+}

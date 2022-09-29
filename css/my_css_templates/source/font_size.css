@@ -1,0 +1,32 @@
+:root {
+    --small-font-size: 0.8rem;
+    --normal-font-size: 1rem;
+    --bigger-font-size: 1.5rem;
+    --big-font-size: 2rem;
+    --giant-font-size: 4rem;
+}
+
+.small-text {
+    font-size: var(--small-font-size);
+}
+.normal-text {
+    font-size: var(--normal-font-size);
+}
+.bigger-text {
+    font-size: var(--bigger-font-size);
+}
+.big-text {
+    font-size: var(--big-font-size);
+}
+.giant-text {
+    font-size: var(--giant-font-size);
+}
+
+@media screen and (max-width: 992px) {
+    :root {
+        --small-font-size: 1rem;
+        --normal-font-size: min(1rem, 3.5vh);
+        --bigger-font-size: 1.5rem;
+        --big-font-size: 2.5rem;
+    }
+}

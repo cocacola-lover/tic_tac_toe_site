@@ -1,0 +1,10 @@
+.line{
+    height: 1px;
+}
+.display-none {
+    display: none;
+}
+.full-size {
+    width: 100%;
+    height: 100%;
+}

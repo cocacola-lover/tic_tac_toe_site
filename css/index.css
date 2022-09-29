@@ -1,0 +1,58 @@
+
+html, body {margin:0;padding:0;height:100%;}
+body {
+    padding: 0px 15vw;
+    min-height: 100vh;
+}
+main{
+    border: 1px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+}
+.blur {
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+.center-panel{
+    height: 400px;
+    padding: 20px;
+}
+
+.turn-button {
+    opacity: 0.3;
+    background-color: white;
+}
+.turn-button:hover {
+    background-color: white;
+}
+.vibrant {
+    border: 2px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1;
+}
+
+.playing-field{
+    height: 100%;
+    aspect-ratio: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    border: none;
+}
+.winning-screen {
+    top: 0px;
+    left: 0px;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.19);
+}
+.winning-icon {
+    background-repeat: no-repeat;
+    width: 15vh;
+    height: 15vh;
+}
+.cross{
+    background-image: url("../icons/close.svg");
+}
+.circle {
+    background-image: url("../icons/checkbox-blank-circle-outline.svg");
+}

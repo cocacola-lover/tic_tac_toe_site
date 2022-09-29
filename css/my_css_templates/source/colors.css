@@ -1,0 +1,88 @@
+:root{
+    --primary : #f9cb15;
+    --primary-dimmer: #d2ab10;
+    --secondary : #1992d4;
+    --secondary-dimmer : #1578ad;
+    --white-dimmer: rgb(218, 218, 218);
+    --black-dimmer: rgb(86, 86, 86);
+}
+
+.white {
+    color: white;
+}
+.white-dimmer {
+    color: var(--white-dimmer);
+}
+.white-dimmer-background{
+    background-color: var(--white-dimmer);
+}
+.filter-white {
+    filter: invert(99%) sepia(5%) saturate(159%) hue-rotate(213deg) brightness(117%) contrast(100%);
+}
+.black {
+    color: black;
+}
+.black-dimmer{
+    color: var(--black-dimmer);
+}
+.black-dimmer-background{
+    background-color: var(--black-dimmer);
+}
+
+.gray {
+    color: gray;
+}
+.gray-background{
+    background-color: gray
+}
+
+.primary-color {
+    color: var(--primary);
+}
+.primary-color-dimmer {
+    color: var(--primary-dimmer)
+}
+.secondary-color-dimmer {
+    color: var(--secondary-dimmer)
+}
+.primary-color-dimmer-background {
+    background-color: var(--primary-dimmer)
+}
+.secondary-color-dimmer-background {
+    background-color: var(--secondary-dimmer)
+}
+
+.secondary-color{
+    color: var(--secondary);
+}
+
+.white-background {
+    background-color: white;
+}
+.black-background {
+    background-color: black;
+}
+
+.primary-color-background {
+    background-color: var(--primary);
+}
+
+.secondary-color-background{
+    background-color: var(--secondary);
+}
+.dimmer-on-hover:hover {
+    cursor: pointer;
+}
+
+.white-background.dimmer-on-hover-background:hover {
+    background-color: var(--white-dimmer);
+}
+.black-background.dimmer-on-hover-background:hover {
+    background-color: var(--black-dimmer);
+}
+.primary-color-background.dimmer-on-hover-background:hover {
+    background-color: var(--primary-dimmer);
+}
+.secondary-color-background.dimmer-on-hover-background:hover {
+    background-color: var(--secondary-dimmer);
+}
